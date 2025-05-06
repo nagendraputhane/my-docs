@@ -9,13 +9,16 @@
 project = 'my-docs'
 copyright = '2025, nagendra'
 author = 'nagendra'
+html_logo = 'logo/logo.jpg'
+release = '0.0.1'
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
 
-templates_path = ['_templates']
+#templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
