@@ -1,0 +1,8 @@
+{# doc/guides/_templates/layout.html #}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+{# This <base> tag now always points to the root (index.html) #}
+<base href="{{ pathto(master_doc, 1) }}">
+{{ super() }}
+{% endblock %}
