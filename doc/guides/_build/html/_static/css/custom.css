@@ -1,11 +1,11 @@
-.wy-side-nav-search, .wy-nav-top {
-    background: #222c32;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body, .wy-nav-content {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
 }
 
-.wy-nav-side {
-    background: #222c32;
-}
-
-.wy-nav-content {
-    max-width: none;
+code, pre, .literal-block {
+  font-family: "Roboto Mono", monospace;
 }
