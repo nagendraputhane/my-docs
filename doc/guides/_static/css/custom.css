@@ -1,11 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body, .wy-nav-content {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
+:root {
+    --sd-color-primary: #007bff;
+    --sd-color-secondary: #6c757d;
+    --sd-color-success: #28a745;
+    --sd-color-info: #17a2b8;
+    --sd-color-warning: #f0b37e;
+    --sd-color-danger: #dc3545;
+    --sd-color-light: #f8f9fa;
+    --sd-color-dark: #212529;
 }
 
-code, pre, .literal-block {
-  font-family: "Roboto Mono", monospace;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+table {
+    border: 1px solid #ddd;
+}
+
+td, th {
+    border: none;
 }
