@@ -1,8 +1,8 @@
 {# doc/guides/_templates/layout.html #}
 {% extends "!layout.html" %}
 
+{# 1) force the base for static assets #}
 {% block extrahead %}
-  {# Force all `_static/...` URLs to resolve from the GitHub Pages root #}
   <base href="/my-docs/">
   {{ super() }}
 {% endblock %}
