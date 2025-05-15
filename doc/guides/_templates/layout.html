@@ -6,3 +6,10 @@
   <base href="/my-docs/">
   {{ super() }}
 {% endblock %}
+
+{% block metatags %}
+  {# Emit only our prefixed <title> #}
+  <title>DAO – {{ title }}</title>
+  {# Then render the rest of the theme’s meta tags, but strip its extra <title> #}
+  {{ super()|replace('<title>', '<!-- removed --><title>') }}
+{% endblock %}
