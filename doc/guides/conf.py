@@ -33,3 +33,9 @@ html_sidebars = {
         "searchbox.html",    # search bar
     ]
 }
+
+html_context = {
+    "project": "DAO",
+    "project_copyright": "© 2025 Marvell",
+    "default_mode": "light",  # if using dark mode switch
+}
